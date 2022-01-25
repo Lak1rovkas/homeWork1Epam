@@ -51,7 +51,6 @@ namespace HomeWork
         public void test()
         {
             brow.Goto(test_url);
-            System.Threading.Thread.Sleep(4000);
 
             driver = brow.getDriver;
 
