@@ -58,7 +58,6 @@ namespace HomeWork
             IWebElement element1 = driver.FindElement(By.XPath(@"//div[@class='sub_nav-item active'][1]/span[text()='Five-day weather forecast']"));
             IWebElement element2 = driver.FindElement(By.LinkText("Skew-T log-P diagram"));
                         
-            System.Threading.Thread.Sleep(2000);
             Assert.NotNull(element1);
             Assert.NotNull(element2);
         }
